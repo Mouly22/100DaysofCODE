@@ -14,6 +14,13 @@ while n> 0:
 print("STOP")
 #repeated step
 
+
+x = "self"
+for i in range(len(x)):
+    print(x[i])
+    
+
+
 name = input()
 handle = open(name)
 count = dict()
