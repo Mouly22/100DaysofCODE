@@ -4,9 +4,16 @@
 # Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75).
 # You should use input to read a string and float() to convert the string to a number. 
 #Do not worry about error checking the user input - assume the user types numbers properly.
+hour = input("enter hour: ")
+rate = input("enter rate: ")
 
-x = int(input("enter hour: "))
-y = float(input("ENTER rate: "))
+try:
+    x = float(hour)
+    y = float(rate)
+except:
+    print("Please enter  numeric number!")
+    quit()
+    
 if x > 40:
     s = (40 + ((x-40)*1.5))*y
 else:
