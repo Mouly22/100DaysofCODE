@@ -36,6 +36,14 @@ for i in range(5):
         print("big")
     print("done with i",i)
 print("all done!")
+#just confirming the knowledge of indentation. just believe the fact that these are the blocks of code.
+
+x = 4
+if x > 2:
+    print("ture")
+else:
+    print("no")
+print("i am done")
 
 
 
