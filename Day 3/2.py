@@ -16,4 +16,4 @@ rain(2)
 
 big = max("Hello world")
 print(big)
-#a function is some stored code that we use. A function takes some input and produces an output.
+#In a function we store values. A function takes some input and produces an output.
