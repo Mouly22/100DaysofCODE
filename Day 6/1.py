@@ -17,13 +17,8 @@ for the_num in range(len([9, 41, 12, 3, 74, 15])) :
       smallest_so_far = the_num
 print(smallest_so_far)
 
-def sum(x, y):
-    while y:
-        x, y = y, x% y
-    print(x, y)
-sum(100, 240)
 
-print(100%240)
+
 
 
 
