@@ -10,3 +10,5 @@ sponge.left(90)
 sponge.backward(30)
 
 
+#sponge is an instance of Turtle class
+#scrn is an instance of Screen class
