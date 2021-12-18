@@ -13,7 +13,6 @@ ciri.forward(180)
 ciri.left(90)
 ciri.forward(75)
 
-
 mini = turtle.Turtle()
 mini.forward(180)
 mini.left(150)
