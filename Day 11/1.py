@@ -12,14 +12,35 @@ arin.forward(90)
 
 arina = turtle.Turtle()
 arina.color("hot pink")
+arin.pensize(4)
 arina.forward(100)
 arina.left(90)                    #name.left(90) goes upward
 arina.forward(90)
 
 #name.right(value)/name.left(value) works for defining angles(degrees).
+ciri = turtle.Turtle()
+ciri.color("yellow")
+ciri.forward(180)           #object.method(parameter)
+ciri.left(90)             
+ciri.forward(75)         
+ciri.left(90)
+ciri.forward(180)
+ciri.left(90)
+ciri.forward(75)
+
+mini = turtle.Turtle()
+mini.forward(180)
+mini.left(150)
+mini.forward(100)      #object.method(parameter)
+mini.left(60)
+mini.forward(100)
+
+
+
 
 prity = turtle.Turtle()
 prity.color("green")
+arin.pensize(2)
 prity.right(45)
 prity.forward(60)
 prity.left(90)
@@ -27,7 +48,8 @@ prity.forward(100)
 
 zina = turtle.Turtle()
 zina.color("red")
-zina.left(180)                #notice this
+zina.pensize(3)
+zina.left(180)                   #notice this
 zina.forward(150)
 
 scrn.exitonclick()                # wait for a user click on the canvas
