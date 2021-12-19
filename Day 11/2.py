@@ -1,6 +1,6 @@
 import turtle
 scrn = turtle.Screen()
-scrn.bgcolor("lightgreen")
+scrn.bgcolor("lightgreen")   
 tur = turtle.Turtle()
 tur.color("white")
 tur.pensize(10)
