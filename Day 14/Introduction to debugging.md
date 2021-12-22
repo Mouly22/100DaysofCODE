@@ -1,3 +1,9 @@
+<h2> Debugging </h2>
+
+The debugging process in software development begins when a developer locates and reproduces a coding error in a computer program.So, we'll be learning about how you should operate as a developer. Style recommendations for your codes, problem-solving tactics, habits, and attitudes that will allow you to enjoy programming even when it's difficult and stressful.
+
+We'll read about three types of errors; Syntax errors, Runtime errors and Semantic errors. 
+
 **Syntax Error**
 
 Syntax refers to the structure of a program and the rules about that structure. For example, 
