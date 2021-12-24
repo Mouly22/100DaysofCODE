@@ -102,6 +102,7 @@ The tester doesn’t even have to know what the program is supposed to do.
 In this case, the program is so simple that we don’t need to write down a test case at all; we can compute the expected output in our heads with very little effort. More complicated programs require effort to create the test case.
 So, creating test cases is an important part of the work that programmers perform in order to help them produce programs that work correctly.
 
+**Type Error**
 
 
 
