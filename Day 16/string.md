@@ -89,7 +89,7 @@ In this example,the colon used in this slicing operator will return the characte
 
 ***Built-in methods***
 
-***It's important to remember that, Python is immutable***
+***It's important to remember that, Python is immutable*** means they can not be changed.
 
 Python has some built-in method to access or process characters in string.
 
@@ -105,7 +105,7 @@ Output:
 ```
 2
 ```
-***As python is case-sensitive, we can't access I here cause the ASCII value of I is different than i***
+As python is ***case-sensitive,*** we can't access I here cause the ASCII value of I is different than i***
 
 ***index method***
 
@@ -150,3 +150,30 @@ Well this is another line   !
 Notice, the whitespace between characters are not removed, only the leading and trailing whitespaces are removed.
 
 ***split method***
+
+Split helps us breaking sentences of a string into more managable pieces.
+
+Split takes a ***delimiter*** and splits the string into sub-strings.The method returns a list where each item is a sub-string that is cut at every instance of that delimeter.
+
+For example,
+
+```
+song = "Tell me why? Aint noting but a heartache. Tell me why? Aint noting but a mistake"
+print(song.split("?"))
+```
+Output:
+```
+['Tell me why', ' Aint noting but a heartache. Tell me why', ' Aint noting but a mistake']
+```
+Here "?" is the delimeter.. so It will cut in those places and won't return the delimeter in output.
+
+```
+x = "Library is a place where you can find peace"
+print(x.split(" "))
+```
+Output:
+```
+['Library', 'is', 'a', 'place', 'where', 'you', 'can', 'find', 'peace']
+```
+Here my delimeter is a space. So the resulting list will include every word in that sentence but no spaces.
+So, the split method won't include the delimeter in the list it returns.

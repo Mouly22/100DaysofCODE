@@ -33,4 +33,11 @@ print(place.upper())
 print(place.lower())
 new = "   Well this is another line   !     "
 print(new.strip())
+song = "Tell me why? Aint noting but a heartache. Tell me why? Aint noting but a mistake"
+print(song.split("?"))
+fun = "I am watching witcher season 2 now"
+print(fun.split(" "))
+x = "Library is a place where you can find peace"
+print(x.split(" "))
+
 
