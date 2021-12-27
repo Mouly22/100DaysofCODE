@@ -1,4 +1,6 @@
-Strings are what we use in python when working with words. Strings are either enclosed with single quotes or double quotes.Also we can write multi line string using three qutations(single and double both)
+<h2> String </h2>
+
+***Strings are what we use in python when working with words.*** Strings are either enclosed with single quotes or double quotes.Also we can write multi line string using three qutations(single and double both)
 ```
 my_name = "Hello! I am mouly"
 myy_name = 'Helloo! I am Mouly'
@@ -19,7 +21,7 @@ a multi line
 string
 that we can write
 ```
-We can also make an empty string
+We can also make an ***empty string***
 ```
 p = " "
 print(p)
@@ -28,7 +30,7 @@ Output:
 ```
 
 ```
-We can concatenate strings by using the plus(+) sign.
+We can ***concatenate*** strings by using the plus(+) sign.
 ```
 var1 = "we want"
 var2 = "to visit a"
@@ -40,7 +42,7 @@ Output:
 ```
 we want to visit a zoo
 ```
-Notice one thing, this + sign doesn't add any space while concatenating.
+Notice one thing, this + sign doesn't add any ***space*** while concatenating.
 
 Strings are sequential collection datatype.This means a string is actually a collection of single characters. 
 We can access a sub-string or part of a string using the indexing operator.
