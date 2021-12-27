@@ -46,4 +46,37 @@ Strings are sequential collection datatype.This means a string is actually a col
 We can access a sub-string or part of a string using the indexing operator.
 This operator is handy for accessing a single character by it's position or ***index value***
 This index value for sequential collection datatypes always begins at ***zero***
+For example, string with six character have entities from 0 through 5. So if we want to access a 5th character of a string we'll use an index of 4.
+```
+xmple = "we want to access"
+print(xmple[0])
+print(xmple[2])   
+print(xmple[8]) 
+```
+Output:
+```
+w
 
+t
+```
+the built-in function ***len()*** can help us determine the length of a string. So the last index of a stirng will always be ***one less*** than the length of that string.
+```
+xmple = "we want to access"
+print(len(xmple))
+```
+Output:
+```
+17
+```
+***Slice Operator***
+Another way of accessing characters in a stirng is to use the slice operator. This allows us to create a sub-string that is more than one character long.
+***Keep in mind*** that, the slice operator leaves the original operator intact.
+```
+xmple = "we want to access"
+print(xmple[1:9:1])
+```
+Output:
+```
+e want t
+```
+In this example,the colon used in this slicing operator will return the characters from index 1 upto index 8(so not including index 9) and the increment will be 1.

@@ -20,3 +20,9 @@ var2 = "to visit a"
 var3 = "zoo"
 var =  var1 +" "+ var2 +" "+ var3
 print(var)
+xmple = "we want to access"
+print(xmple[0])
+print(xmple[2])
+print(xmple[8])
+print(len(xmple))
+print(xmple[1:9:1])
