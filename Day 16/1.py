@@ -26,3 +26,9 @@ print(xmple[2])
 print(xmple[8])
 print(len(xmple))
 print(xmple[1:9:1])
+place = "I want to visit USA"
+print(place.count("i"))
+place = "I want to visit USA"
+print(place.upper())
+print(place.lower("v"))
+

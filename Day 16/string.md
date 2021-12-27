@@ -86,3 +86,47 @@ Output:
 e want t
 ```
 In this example,the colon used in this slicing operator will return the characters from index 1 upto index 8(so not including index 9) and the increment will be 1.
+
+***Built-in methods***
+
+Python also has some built-in method to access or process characters in your string.
+
+For example,
+
+***count method***
+we can use the count method to count the occurances of a particular substring.
+```
+place = "I want to visit USA"
+print(place.count("i"))
+```
+Output:
+```
+2
+```
+***As python is case-sensitive, we can't access I here cause the ASCII value of I is different than i***
+
+***index method***
+
+we can use the index method to find the index of the ***first occurance*** of a given substring.
+```
+place = "I want to visit USA"
+print(place.index("i"))
+```
+Output:
+```
+11
+```
+***Upper and lower method***
+
+Upper returns the copy of a given string in all uppercase letters; while lower returns the copy of a given string in all lowercase letters.
+```
+place = "I want to visit USA"
+print(place.upper())
+print(place.lower())
+```
+Output:
+```
+I WANT TO VISIT USA
+i want to visit usa
+```
+upper or lower method takes no arguments.
