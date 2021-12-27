@@ -89,7 +89,9 @@ In this example,the colon used in this slicing operator will return the characte
 
 ***Built-in methods***
 
-Python also has some built-in method to access or process characters in your string.
+***It's important to remember that, Python is immutable***
+
+Python has some built-in method to access or process characters in string.
 
 For example,
 
@@ -130,3 +132,21 @@ I WANT TO VISIT USA
 i want to visit usa
 ```
 upper or lower method takes no arguments.
+
+***strip method***
+
+this strip method returns the copy of a string with the leading and trailing ***whitespaces*** removed.
+
+Whitespaces refers to any character that represents a space in text like a tab,a space or a new line character.
+
+```
+new = "   Well this is another line   !     "
+print(new.strip())
+```
+Output:
+```
+Well this is another line   !
+```
+Notice, the whitespace between characters are not removed, only the leading and trailing whitespaces are removed.
+
+***split method***
