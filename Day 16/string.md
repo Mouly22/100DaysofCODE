@@ -45,6 +45,9 @@ we want to visit a zoo
 Notice one thing, this + sign doesn't add any ***space*** while concatenating.
 
 Strings are sequential collection datatype.This means a string is actually a collection of single characters. 
+
+***Indexing***
+
 We can access a sub-string or part of a string using the indexing operator.
 This operator is handy for accessing a single character by it's position or ***index value***
 This index value for sequential collection datatypes always begins at ***zero***
@@ -71,6 +74,7 @@ Output:
 17
 ```
 ***Slice Operator***
+
 Another way of accessing characters in a stirng is to use the slice operator. This allows us to create a sub-string that is more than one character long.
 ***Keep in mind*** that, the slice operator leaves the original operator intact.
 ```
