@@ -56,6 +56,7 @@ Output:
 ```
 <class 'str'>
 ```
+Also,
 ```
 p = "5"
 q = 5
