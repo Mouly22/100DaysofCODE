@@ -24,7 +24,7 @@ that we can write
 ```
 We can also make an ***empty string***
 ```
-p = " "
+p = " "                                       #empty string
 print(p)
 ```
 Output:
@@ -36,7 +36,7 @@ We can ***concatenate*** strings by using the plus(+) sign.
 var1 = "we want"
 var2 = "to visit a"
 var3 = "zoo"
-var =  var1 +" "+ var2 +" "+ var3
+var =  var1 +" "+ var2 +" "+ var3             #concetenation of a string
 print(var)
 ```
 Output:
@@ -49,8 +49,8 @@ Notice one thing, this + sign doesn't add any ***space*** while concatenating.
 
 this built-in fuction returns the type of an object
 ```
-name = "alan walker"
-print(type(name))
+name = "alan walker"  
+print(type(name))                             #type of name variable
 ```
 Output:
 ```
@@ -58,8 +58,8 @@ Output:
 ```
 Also,
 ```
-p = "5"
-q = 5
+p = "5"                                      #this is a string
+q = 5                                        #this is an integer
 print(type(p))
 print(type(q))
 ```
@@ -84,7 +84,7 @@ but
 ```
 p = "5"
 q = 5
-print(p + 45)
+print(p + 45)                                 #this will give an error
 print(q)
 ```
 Output:
@@ -96,7 +96,7 @@ we can add them if we cast this p string into an integer.
 ```
 p = "5"
 q = 5
-print(int(p) + 45))
+print(int(p) + 45))                          #this won't give an error
 print(q)
 ```
 Output:
@@ -106,14 +106,25 @@ Output:
 ```
 ```
 p = "5"
-print(p + "45")
+print(p + "45")                              #string concetenation
 ```
 Output:
 ```
 545
 ```
+When we call a int of float to cast a string it needs to be a valid number.
+```
+p = "20 taka"
+print(p + 25)
+```
+Output:
+```
+TypeError: can only concatenate str (not "int") to str
+```
+So, python can't convert this string into integer.
 
 Strings are sequential collection datatype.This means a string is actually a collection of single characters.
+
 ***Indexing***
 
 We can access a sub-string or part of a string using the indexing operator.
@@ -125,18 +136,22 @@ xmple = "we want to access"
 print(xmple[0])
 print(xmple[2])   
 print(xmple[8]) 
+print(xmple[-1])                                 #negative indexing
 ```
 Output:
 ```
 w
 
 t
+s
 ```
+Positive indexing starts from 0 and from the right side while negative indexing starts from the left side,
+so we can access the last characters also by using negative indexing.
 Yess, the space also counts.
 the built-in function ***len()*** can help us determine the length of a string. So the last index of a stirng will always be ***one less*** than the length of that string.
 ```
 xmple = "we want to access"
-print(len(xmple))
+print(len(xmple))                               #length of a string
 ```
 Output:
 ```
@@ -209,7 +224,7 @@ this strip method returns the copy of a string with the leading and trailing ***
 Whitespaces refers to any character that represents a space in text like a tab,a space or a new line character.
 
 ```
-new = "   Well this is another line   !     "
+new = "   Well this is another line   !     "       #Strips all whitespace characters from both ends.
 print(new.strip())
 ```
 Output:

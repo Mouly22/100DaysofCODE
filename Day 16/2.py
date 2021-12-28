@@ -8,3 +8,6 @@ p = "5"
 q = 5
 print(p + "45")
 print(q )
+x = "this is a line"
+print(x[-1])
+
