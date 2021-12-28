@@ -9,6 +9,7 @@ a multi line
 string
 that we can write'''
 print(my_name)
+print(type(my_name))
 print(myy_name)
 print(x)
 p = " "

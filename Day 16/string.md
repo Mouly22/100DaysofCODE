@@ -1,6 +1,7 @@
 <h2> String </h2>
 
-***Strings are what we use in python when working with words.*** Strings are either enclosed with single quotes or double quotes.Also we can write multi line string using three qutations(single and double both)
+***Strings are what we use in python when working with words.*** Strings are either enclosed with single quotes or double quotes.Also we can write multi line string using triple qutations(single and double both)
+So, we can use either single quotes or double quotes as long as we are consistant about which qutation we are using.
 ```
 my_name = "Hello! I am mouly"
 myy_name = 'Helloo! I am Mouly'
@@ -46,6 +47,74 @@ Notice one thing, this + sign doesn't add any ***space*** while concatenating.
 
 Strings are sequential collection datatype.This means a string is actually a collection of single characters. 
 
+***type***
+
+this built-in fuction returns the type of an object
+```
+name = "alan walker"
+print(type(name))
+```
+Output:
+```
+<class 'str'>
+```
+```
+p = "5"
+q = 5
+print(type(p))
+print(type(q))
+```
+Output:
+```
+<class 'str'>
+<class 'int'>
+```
+Even though p and q might look same to you.. their types are different and there are different consequences for this. 
+```
+p = "5"
+q = 5
+print(p)
+print(q + 45)
+```
+Output:
+```
+5
+50
+```
+but 
+```
+p = "5"
+q = 5
+print(p + 45)
+print(q)
+```
+Output:
+```
+TypeError: can only concatenate str (not "int") to str
+```
+here, p is a string. Even though 5 happens to look like a number, in python it's just a sequence of characters and we can't add a number to a sequence of characters.
+we can add them if we cast this p string into an integer.
+```
+p = "5"
+q = 5
+print(int(p) + 45))
+print(q)
+```
+Output:
+```
+50
+5
+```
+```
+p = "5"
+print(p + "45")
+```
+Output:
+```
+545
+```
+
+
 ***Indexing***
 
 We can access a sub-string or part of a string using the indexing operator.
@@ -64,6 +133,7 @@ w
 
 t
 ```
+Yess, the space also counts.
 the built-in function ***len()*** can help us determine the length of a string. So the last index of a stirng will always be ***one less*** than the length of that string.
 ```
 xmple = "we want to access"
