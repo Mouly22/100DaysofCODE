@@ -43,9 +43,7 @@ Output:
 ```
 we want to visit a zoo
 ```
-Notice one thing, this + sign doesn't add any ***space*** while concatenating.
-
-Strings are sequential collection datatype.This means a string is actually a collection of single characters. 
+Notice one thing, this + sign doesn't add any ***space*** while concatenating. 
 
 ***type***
 
@@ -114,7 +112,7 @@ Output:
 545
 ```
 
-
+Strings are sequential collection datatype.This means a string is actually a collection of single characters.
 ***Indexing***
 
 We can access a sub-string or part of a string using the indexing operator.
