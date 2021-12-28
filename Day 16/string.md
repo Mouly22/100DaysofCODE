@@ -260,6 +260,7 @@ Output:
 ```
 ['Tell me why', ' Aint noting but a heartache. Tell me why', ' Aint noting but a mistake']
 ```
+This output comes as a list
 Here "?" is the delimeter.. so It will cut in those places and won't return the delimeter in output.
 
 ```
@@ -271,4 +272,28 @@ Output:
 ['Library', 'is', 'a', 'place', 'where', 'you', 'can', 'find', 'peace']
 ```
 Here my delimeter is a space. So the resulting list will include every word in that sentence but no spaces.
+```
+x = "Library is a place where you can find peace"
+print(x.split("a"))
+```
+Output:
+```
+['Libr', 'ry is ', ' pl', 'ce where you c', 'n find pe', 'ce']
+```
 So, the split method won't include the delimeter in the list it returns.
+
+***join method***
+
+The inverse of the split method is join. We can choose a desired separator string, (often called the glue) and join the list with the glue between each of the elements.
+
+```
+x = ["*light blue?", "sky", "it's raining hard","colin, where you go","?*"]
+y = "! "
+p = y.join(x)
+print(p)
+```
+Output:
+```
+*light blue?! sky! it's raining hard! colin, where you go! ?*
+```
+We can also use empty string or multi-character strings as glue.
