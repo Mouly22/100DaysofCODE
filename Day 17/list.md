@@ -10,7 +10,8 @@ z = ["magic", 9.0, 8, [1,3,5]]                   #multiple type values
 ```
 A list can contain multiple datatypes even including a list in a single list.
 
-append function
+***Append function***
+
 we can add items at the end of an existing list by using built-in append function.
 ```
 my_li = ["magic", 9.0, 8, [1,3,5]]  
@@ -19,7 +20,8 @@ print(my_li)
 ```
 Output:
 ```
-['magic', 9.0, 8, [1, 3, 5], 'gilmore girls']```
+['magic', 9.0, 8, [1, 3, 5], 'gilmore girls']
+```
 
 We can also add multiple list together, this is called list concetenation.
 ```
