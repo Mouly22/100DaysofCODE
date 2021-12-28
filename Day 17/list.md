@@ -78,6 +78,7 @@ Output:
 5
 ```
 ***Count method***
+
 this method is handy for counting the occurances of a particular item in your list.
 ```
 lst = ["magic", 21, "snowball", [1,3,5], 3, "rain", [2, 4], "snowball", "lili" ]
