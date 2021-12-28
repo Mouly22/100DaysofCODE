@@ -10,4 +10,4 @@ print(p + "45")
 print(q )
 x = "this is a line"
 print(x[-1])
-
+print(x[len(x)-1])

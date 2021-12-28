@@ -157,6 +157,17 @@ Output:
 ```
 17
 ```
+If we want to access last character of a string we can do either of them from below:
+```
+xmple = "we want to access"
+print(xmple[len(xmple)-1])
+print(xmple[-1])
+```
+Output:
+```
+e
+e
+```
 ***Slice Operator***
 
 Another way of accessing characters in a stirng is to use the slice operator. This allows us to create a sub-string that is more than one character long.

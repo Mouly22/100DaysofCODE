@@ -25,7 +25,7 @@ xmple = "we want to access"
 print(xmple[0])
 print(xmple[2])
 print(xmple[8])
-print(xmple[-1])
+print(len(xmple)-1)
 print(len(xmple))
 print(xmple[1:9:1])
 place = "I want to visit USA"
