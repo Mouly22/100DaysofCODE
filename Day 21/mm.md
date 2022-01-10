@@ -26,7 +26,7 @@ It quickly expands or decreases cloud-based resources to satisfy changing demand
 
 Agility allows user so concentrate on other issues such as security, monitoring, and analysis rather than provisioning and maintaining resources. 
 
-<b>Geo-distribution:<b> Geo distribution is designed in such a way to deploy apps and data to regional datacenters around the globe,which ensures the customers always have the best performance in their region.
+<b>Geo-distribution:<b> Geo distribution is de.signed in such a way to deploy apps and data to regional datacenters around the globe,which ensures the customers always have the best performance in their region.
 
 Disaster recovery:
 Disaster Recovery is the ability of a system to recover from a human -induced disaster that has destroyed the primary data-center. 
