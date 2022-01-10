@@ -18,17 +18,21 @@ Apps in the cloud can scale vertically and horizontally.
 
 ***Horizontal Scalability*** increases compute capacity by adding instances of resources, such as adding VMs to the configuration.
 
-<b>Elasticity:<b> Elasticity is the ability to scale automatically.
+<b>Elasticity:</b> Elasticity is the ability to scale automatically.
+ 
 It provides the capacity to fit the resources needed to cope with loads dynamically.
 It quickly expands or decreases cloud-based resources to satisfy changing demands without worrying about capacity planning and engineering for peak usage.
 
-<b>Agility:</b> Cloud Agility is the ability to react quickly.So, the speed and flexibility in the cloud which allow users to allocate and deallocate resources quickly is often called cloud agility.
+<b>Agility:</b> 
+Cloud Agility is the ability to react quickly.So, the speed and flexibility in the cloud which allow users to allocate and deallocate resources quickly is often called cloud agility.
 
 Agility allows user so concentrate on other issues such as security, monitoring, and analysis rather than provisioning and maintaining resources. 
 
-<b>Geo-distribution:<b> Geo distribution is de.signed in such a way to deploy apps and data to regional datacenters around the globe,which ensures the customers always have the best performance in their region.
+<b>Geo-distribution:<b> 
+ 
+Geo distribution is designed in such a way to deploy apps and data to regional datacenters around the globe,which ensures the customers always have the best performance in their region.
 
-Disaster recovery:
+ <b>Disaster recovery:</b>
 Disaster Recovery is the ability of a system to recover from a human -induced disaster that has destroyed the primary data-center. 
 
 Using cloud computing system we can deploy applications in multiple regions and data-replication in another region; and can also access it easily.
