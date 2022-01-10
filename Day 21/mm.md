@@ -28,7 +28,7 @@ Cloud Agility is the ability to react quickly.So, the speed and flexibility in t
 
 Agility allows user so concentrate on other issues such as security, monitoring, and analysis rather than provisioning and maintaining resources. 
 
-<b>Geo-distribution:<b> 
+<b>Geo-distribution:</b> 
  
 Geo distribution is designed in such a way to deploy apps and data to regional datacenters around the globe,which ensures the customers always have the best performance in their region.
 
