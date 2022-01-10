@@ -34,6 +34,17 @@ Output:
 ```
 ['Friends', 'Atypical', 'Witcher', 'Meteor garden', 'love020', "It's okay not to be okay"]
 ```
+We can concetanate list with an other list; not other data type
+```
+sports = ['cricket', 'football', 'volleyball']
+y = sports + 5
+print(y)
+```
+Output:
+```
+TypeError: can only concatenate list (not "int") to list
+```
+
 ***Index Operator***
 
 We can access different parts of a list by using index operator, which is denoted by square brackets.
@@ -47,6 +58,22 @@ Output:
 Meteor garden is the best series
 ```
 Just like string, the numbering of list indexing always starts from zero
+
+***One thing to notice,*** You have currently encountered two instances where we have used square brackets. The first is creating lists and the second is indexing.
+indexing requires referencing an already created list while simply creating a list does not.
+```
+lst = [0]
+n_lst = lst[0]
+
+print(lst)                  #type --> list
+print(n_lst)                #type --> int
+```
+Output:
+```
+[0]
+0
+```
+a list called lst being assigned to a list with one element, zero. Then, we see how n_lst is assigned the value associated with the first element of lst
 
 ***List Slicing***
 

@@ -21,4 +21,10 @@ print(last)
 
 
 
+lst = [0]
+n_lst = lst[0]
+
+print(type(lst))
+print(type(n_lst))
+
 
