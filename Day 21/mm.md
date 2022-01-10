@@ -32,9 +32,3 @@ Disaster recovery:
 Disaster Recovery is the ability of a system to recover from a human -induced disaster that has destroyed the primary data-center. 
 
 Using cloud computing system we can deploy applications in multiple regions and data-replication in another region; and can also access it easily.
-
-Reference: 
-
-
-
-
