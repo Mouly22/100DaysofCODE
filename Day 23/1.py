@@ -31,4 +31,22 @@ print(type(opps))
 stup = ('yellow', 'paper', 'daisy')
 print(stup)
 
+ftup = ('bunny', 'herion', 'fan', 'van')
+convert_list = list(ftup) 
+convert_list[1] = 'fire'
+new_tuple = tuple(convert_list)
+print(new_tuple)
+
+stars = ('Sirius', 'Canopus', 'Vega', 'Rigel', 'Procyon')
+
+stars = ('Sirius', 'Canopus', 'Vega', 'Rigel', 'Procyon')
+(c, d, a, f, e) = stars
+print(d)
+print('a:', c, 'b:', d, 'c:', a, 'd:', f, 'e:', e)
+
+tup_1 = ("rain", "fall", "sun", "snow", "wind", "cry")
+
+(one, *two, last) = tup_1
+
+print(two)
 
