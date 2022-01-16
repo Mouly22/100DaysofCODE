@@ -1,4 +1,4 @@
-p = ("Julia", "Roberts", 1967, "Duplicity", 2009, "Actress", "Atlanta, Georgia")
+p = ("Julia", "Duplicity", 2009, "Actress", "Atlanta",1920,  "Georgia")
 print(type(p))
 
 n_tup = ('rebert', 2009, [10, 'mango', 2.9], 'rebellion', 'ring')
@@ -22,8 +22,10 @@ print(s)
 char = ('Triyon', 'Jon', 'Jaime', 'Sansa', 'Arya', 'Theon', 'Snow')
 print(char[-5:-2])
 
-
+tup =('cherry', 'pingpong', 'hockey') + ('Sansa', 'Arya', 'Theon', 'Snow')
+print(tup)
 opps = tuple(('cherry', 'pingpong', 'hockey', 'basket', 'yellow', 'brown'))
+
 print(opps)
 print(type(opps))
 
@@ -49,4 +51,21 @@ tup_1 = ("rain", "fall", "sun", "snow", "wind", "cry")
 (one, *two, last) = tup_1
 
 print(two)
+
+l_tup = ("Julia", "Duplicity", 2009, "Actress", "Atlanta",1920,  "Georgia")
+for i in l_tup:
+    print(i)
+
+t_ttup = ('Jon',300, 'Duplicity', 200, 'Jaime', 1520, 'Sansa')
+print(len(t_ttup))
+
+etup = ['pingpong', 'hockey', 'Sansa', 'Arya']
+conversion_etup = enumerate(etup)
+new_etup = tuple(conversion_etup)
+print(new_etup)
+
+nup = ['rain', 'rain', 'go', 'away']
+enum = enumerate(nup, 3)
+now_tup = tuple(enum)
+print(now_tup)
 
