@@ -69,3 +69,15 @@ enum = enumerate(nup, 3)
 now_tup = tuple(enum)
 print(now_tup)
 
+x = ['No', 'matter', 'what', 'you', 'say', ',', 'no', 'matter', 'what', 'you', 'do!']
+for i in enumerate(x):
+    print(i)
+
+
+p = ('rain', 'rain', 'go', 'away')
+y = p.count('rain')
+print(y)
+
+n = (2, 4, 5, 45, 78, 12, 2, 3)
+here = n.index(2)
+print(here)
