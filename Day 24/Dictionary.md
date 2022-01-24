@@ -98,3 +98,60 @@ Here we can see how we the change value of a key of a dictionary.
 <h4> Looping through a dictionary </h4>
 
 ```
+songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+for i in songs.keys():
+    print(i)
+```
+Output:
+```
+red
+1989
+reputation
+```
+```
+songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+for i in songs.values():
+    print(i)
+```
+Output:
+```
+All Too Well
+Style
+Gorgeous
+```
+```
+songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+for i in songs.values():
+    print(i)
+```
+Output:
+```
+All Too Well
+Style
+Gorgeous
+```
+```
+songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+for i,j in songs.items():
+    print(i, j)
+```
+Output:
+```
+red All Too Well
+1989 Style
+reputation Gorgeous
+```
+<h4>If I update a dictionary, then the updated list of keys will be displayed.</h4>
+
+```
+songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+y = songs.keys()
+songs['folklore'] = 'cardigan'
+print(y)
+```
+Output:
+```
+dict_keys(['red', 1989, 'reputation', 'folklore'])
+```
+
+

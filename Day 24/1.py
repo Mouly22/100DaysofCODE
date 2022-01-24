@@ -28,8 +28,20 @@ for i in dict4:
     print(i)
 
 songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
-for i,j in songs.items():
-    print(i, j)
+for i in songs.keys():
+    print(i)
+
+songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+for i in songs.values():
+    print(i)
+
+songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+y = songs.keys()
+songs['folklore'] = 'cardigan'
+print(y)
+
+
+
 
 
 
