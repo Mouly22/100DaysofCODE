@@ -40,6 +40,20 @@ y = songs.keys()
 songs['folklore'] = 'cardigan'
 print(y)
 
+d = {'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+if 'red' in d:
+    print('yup')
+
+name = ['darla','remina','sonam','kiran']
+age = [23, 45, 3, 44]
+res = dict(zip(name,age))
+print(res)
+
+m_zen = { 88017:'rihan', 88015:'kiran', 88018 : ['sonam','riki'], 88013: 'harmeonie', 88016 :{24: 'chinal',26:'sonu'}}
+y = m_zen[88016][26]
+print(y)
+
+
 
 
 

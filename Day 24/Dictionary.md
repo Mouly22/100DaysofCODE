@@ -23,6 +23,32 @@ Output:
 ```
 {}
 ```
+<h4> Accessing a dictionary inside a dictionary</h4>
+
+```
+m_zen = { 88017:'rihan', 88015:'kiran', 88018 : ['sonam','riki'], 88013: 'harmeonie', 88016 :{24: 'chinal',26:'sonu'}}
+y = m_zen[88016][26]
+print(y)
+```
+Output:
+```
+sonu
+```
+
+<h4> Adding two list as key,value in dictionary </h4>
+For this, we have to use zip function.
+
+```
+name = ['darla','remina','sonam','kiran']
+age = [23, 45, 3, 44]
+res = dict(zip(name,age))
+print(res)
+```
+Output:
+```
+{'darla': 23, 'remina': 45, 'sonam': 3, 'kiran': 44}
+```
+
 <h4> Length of a dictionary </h4>
 
 ```
@@ -121,17 +147,6 @@ Gorgeous
 ```
 ```
 songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
-for i in songs.values():
-    print(i)
-```
-Output:
-```
-All Too Well
-Style
-Gorgeous
-```
-```
-songs = { 'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
 for i,j in songs.items():
     print(i, j)
 ```
@@ -153,5 +168,21 @@ Output:
 ```
 dict_keys(['red', 1989, 'reputation', 'folklore'])
 ```
+<h4> Determining if a key exists in Dictionary </h4>
+
+```
+d = {'red':'All Too Well', 1989: 'Style', 'reputation' : 'Gorgeous'}
+if 'red' in d:
+    print('yup')
+```
+Output:
+```
+yup
+```
+
+<h4> Adding Elements </h4>
+
+
+
 
 
