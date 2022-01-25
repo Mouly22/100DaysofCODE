@@ -13,6 +13,3 @@ sponge.forward(100)
 sponge.right(90)
 sponge.forward(100)
 
-
-
-
