@@ -50,12 +50,38 @@ res = dict(zip(name,age))
 print(res)
 
 m_zen = { 88017:'rihan', 88015:'kiran', 88018 : ['sonam','riki'], 88013: 'harmeonie', 88016 :{24: 'chinal',26:'sonu'}}
-y = m_zen[88016][26]
+y = sorted(m_zen.keys())
+print(y)
+
+pdict = { 88017:'rihan', 'nila': 2345, 1989: 'Style', 88015:'kiran'}
+pdict.update({'mouly' : 'cse'})
+print(pdict)
+
+rdict = {'darla': 23, 'remina': 45, 'sonam': 3, 'kiran': 44}
+del rdict['sonam'] 
+print(rdict)
+
+jdict = {'saturn': 'sat', 'moon': 'ear', 'mars': 'red', 'venus': 'blue'}
+new = sorted(jdict.values())
+print(jdict)
+print(new)
+
+
+
+val="""name mouly
+age 21
+home bogura"""
+    
+y = dict(x.split() for x in val.splitlines())
 print(y)
 
 
-
-
-
+n = int(input("enter a n value:"))
+d = {}
+for i in range(n):
+    keys = input()           # here i have taken keys as strings
+    values =input()          # here i have taken values as integers
+    d[keys] = values
+print(d)
 
 
