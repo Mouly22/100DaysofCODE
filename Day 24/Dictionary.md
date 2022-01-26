@@ -1,4 +1,4 @@
-A​ ​dictionary is an unordered collection that consists of ​key-value​ pairs. Dictionaries are bounded by curly braces and have a list of ​key: value ​pairs which are separated by comma (,)
+A dictionary is an unordered collection that consists of ​key-value​ pairs. Dictionaries are bounded by curly braces and have a list of ​key: value ​pairs which are separated by comma (,)
 
 ```
 dict1 = {}
@@ -205,7 +205,7 @@ Output:
 ```
 {88017: 'rihan', 'nila': 2345, 1989: 'Style', 88015: 'kiran', 'mouly': 'cse'}
 ```
-<h4>del method </h4>
+<h4>Del method </h4>
 We can use del method for removing an element or simply remove the whole dictionary.
 
 ```
@@ -272,7 +272,7 @@ Output:
 ```
 ['blue', 'ear', 'red', 'sat']
 ```
-<h4>take a input dict from the user</h4>
+<h4>Take a input dict from the user</h4>
 
 ```
 n = 2
