@@ -273,6 +273,7 @@ Output:
 ['blue', 'ear', 'red', 'sat']
 ```
 <h4>take a input dict from the user</h4>
+
 ```
 n = 2
 d = dict(input("Enter: ").split() for i in range(n))        #while taking input write one key-value in only line and go to the next line
