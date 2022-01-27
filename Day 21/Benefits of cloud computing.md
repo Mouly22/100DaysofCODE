@@ -50,9 +50,9 @@ Two kinds of regions we need to keep in mind:
  
 2) Special partnered regions (China East, China North)
 
-<b> Region Pair: </b> 
+<b> Region Pair: </b> Each region pairing with another region makes region pair. Region pairs are static and we cannot choose it. 
 
-<b> Availability Zone:</b> Then comes the availability zone which is a regional feature
+<b> Availability Zone:</b> Then comes the availability zone which is a regional feature. It is designed to protect from data center failures. Availability Zones are grouping of physically separate facilities, so if a zone goes down others continue working. But not all regions are supported in availability zone, a supported region has three or more zones.
 
 
 
