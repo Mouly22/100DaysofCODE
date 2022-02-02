@@ -4,6 +4,7 @@
 <h4>Cloud computing is the delivery of various services such as data storage, servers, databases, networking, and software, over the Internet.</h4>
 Cloud storage allows customers to save files to a remote database and retrieve them whenever they need them. So, a cloud environment provides various types of advantages.
  
+ 
 <b>High availability:</b> High availability refers to a computing infrastructure that allows it to ***continue operating*** even if some of its components fail. So, depending on the service-level agreement (SLA) that a customer choose, they can experience a continuous user experience with no apparent downtime of cloud-based apps.
 
 Availability = uptime / (uptime + downtime)
@@ -50,15 +51,6 @@ Two kinds of regions we need to keep in mind:
  
 2) Special partnered regions (China East, China North)
 
-<b> Region Pair: </b> 
+<b> Region Pair: </b> Each region pairing with another region makes region pair. Region pairs are static and we cannot choose it. 
 
-<b> Availability Zone:</b> Then comes the availability zone which is a regional feature
-
-
-
-
-
-
-
-
-
+<b> Availability Zone:</b> Then comes the availability zone which is a regional feature. It is designed to protect from data center failures. Availability Zones are grouping of physically separate facilities, so if a zone goes down others continue working. But not all regions are supported in availability zone, a supported region has three or more zones.
