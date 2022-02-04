@@ -14,14 +14,14 @@ for i in newArr:
 
 #also,
 num = array('i',[2,43, 3,-55,46,7,34])
-vArr = array(num.typecode, (a*a for a in num ))
+vArr = array(num.typecode, (a*a for a in num ))   #square
 
 for p in vArr:
     print(p)
 
 #in while loop:
-#i = 0
-#while i < len(newArr):
-    #print(newArr[i])
-    #i += 1
+i = 0
+while i < len(newArr):
+    print(newArr[i])
+    i += 1
 
