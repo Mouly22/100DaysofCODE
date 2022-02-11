@@ -1,3 +1,6 @@
+#first we need to define a function, and then when we want to use it, we will call that function
+
+
 def greet():              #define a function
     print("Hola")     
 
