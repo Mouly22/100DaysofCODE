@@ -1,7 +1,7 @@
 ---
 title: ক্লাউড কম্পিউটিং
 status: Completed
-category: concept
+category: ধারণা
 ---
 
 ## এটা কি
