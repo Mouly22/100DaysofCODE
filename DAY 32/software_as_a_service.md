@@ -1,7 +1,7 @@
 ---
 Title: সফ্টওয়্যার এজ আ সার্ভিস(Software as a Service)(SaaS)
 Status: Completed
-Category:প্রযুক্তি
+Category: প্রযুক্তি
 ---
 
 ## এটা কি
